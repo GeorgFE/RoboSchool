@@ -1,0 +1,22 @@
+.nav{
+  &__list{
+    @include flex-v-center;
+  }
+  &__link{
+    font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 160%;
+/* identical to box height, or 32px */
+
+text-align: center;
+
+color: #FFFFFF;
+
+  }
+  &__item{
+    &:not(:last-child){
+      margin-right: 40px;
+    }
+  }
+}
